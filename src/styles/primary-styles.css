@@ -1,0 +1,52 @@
+@import "./reset.css";
+@import "./fonts.css";
+@import "./components.css";
+
+:root {
+  --app-bg: #111927;
+  --title-color: #fff;
+  --text-color: #a4b1cd;
+
+  /* colors */
+  --green: #9fef00;
+
+  --transition: 0.2s;
+
+  /* measurements */
+  --header-height: 8.5rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  line-height: 1.5;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "NeueHaasUnica";
+  background-color: var(--app-bg);
+  color: var(--title-color);
+}
+
+::-webkit-scrollbar {
+  /* width: 0.1rem; */
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all var(--transition);
+}
+a:hover {
+  /* color: var(--title-color); */
+}
+
+.d-none{
+  display: none;
+}
