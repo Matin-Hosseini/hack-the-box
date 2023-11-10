@@ -3,8 +3,8 @@
 @import "./components.css";
 
 :root {
-  /* --app-bg: #111927; */
-  --app-bg: #0B121F;
+  --app-bg: #111927;
+  /* --app-bg: #0B121F; */
   --title-color: #fff;
   --text-color: #a4b1cd;
   --section-bg: #1A2332;
