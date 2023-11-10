@@ -3,7 +3,8 @@
 @import "./components.css";
 
 :root {
-  --app-bg: #111927;
+  /* --app-bg: #111927; */
+  --app-bg: #0B121F;
   --title-color: #fff;
   --text-color: #a4b1cd;
   --section-bg: #1A2332;
@@ -36,7 +37,7 @@ body {
 }
 
 ::-webkit-scrollbar {
-  /* width: 0.1rem; */
+  width: 0.1rem;
 }
 
 a {
