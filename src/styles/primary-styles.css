@@ -6,6 +6,7 @@
   --app-bg: #111927;
   --title-color: #fff;
   --text-color: #a4b1cd;
+  --section-bg: #1A2332;
 
   /* colors */
   --green: #9fef00;
@@ -47,6 +48,6 @@ a:hover {
   /* color: var(--title-color); */
 }
 
-.d-none{
-  display: none;
+.d-none {
+  display: none !important;
 }
