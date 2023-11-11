@@ -12,7 +12,9 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import TestimonialBox from "./TestimonialBox/TestimonialBox";
-import { useRef } from "react";
+
+//data
+import testimonials from "../../data/testimonial";
 
 export default function Testimonial() {
   return (
@@ -50,21 +52,11 @@ export default function Testimonial() {
             prevEl: ".section-header__prev-btn",
           }}
           pagination={{ clickable: true }}>
-          <SwiperSlide>
-            <TestimonialBox />
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <TestimonialBox />
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <TestimonialBox />
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <TestimonialBox />
-          </SwiperSlide>
+          {testimonials.map((testimonial) => (
+            <SwiperSlide key={testimonial.id}>
+              <TestimonialBox {...testimonial} />
+            </SwiperSlide>
+          ))}
         </Swiper>
       </div>
     </div>
