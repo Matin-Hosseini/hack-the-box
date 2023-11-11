@@ -1,0 +1,66 @@
+.about__header {
+  text-align: center;
+}
+
+.logo-lottie {
+  width: 5rem;
+  height: 5rem;
+  margin-inline: auto;
+  margin-bottom: 0.8rem;
+}
+
+.about__title {
+  font-size: 3.2rem;
+  margin: 1.6rem 0;
+  font-weight: 800;
+}
+
+.about__caption {
+  font-size: 2rem;
+  color: var(--text-color);
+}
+
+.about-boxes {
+  display: grid;
+  gap: 1.6rem;
+  margin-top: 7rem;
+  margin-bottom: 10rem;
+}
+
+@media (min-width: 992px) {
+  .about-boxes {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+  }
+}
+
+.funfact {
+  margin: 10rem 0;
+  background: url("./../../../src/assets/images/home-page/funfact/oulines-bg.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 4.5rem;
+  text-align: center;
+  border: 1px solid #202837;
+  border-radius: 0.6rem;
+}
+
+.funfact__title {
+  font-size: 4.8rem;
+  color: var(--green);
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  letter-spacing: 0.1rem;
+}
+.funfact__caption {
+  font-size: 1.8rem;
+}
+.funfact__caption a {
+  color: var(--green);
+  font-weight: 400;
+  text-decoration: underline;
+}

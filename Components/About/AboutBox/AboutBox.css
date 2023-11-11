@@ -1,0 +1,23 @@
+
+.about-box {
+  background-color: var(--section-bg);
+  border-radius: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #202837;
+  padding-top: 2.5rem;
+}
+
+.about-box__content{
+    padding: 1rem;
+}
+
+.about-box__title {
+    font-size: 2.4rem;
+}
+.about-box__caption {
+    color: var(--text-color);
+    font-size: 1.5rem;
+    margin: 2rem 0 2.5rem 0;
+}

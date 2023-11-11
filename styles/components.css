@@ -1,0 +1,16 @@
+/* btn starts */
+.btn-primary {
+  width: 12.5rem !important;
+  height: 4.5rem !important;
+  display: grid;
+  place-content: center;
+  background-color: var(--green);
+  color: #141d2b !important;
+  border-radius: 0.2rem;
+  /* padding: 1.5rem 2rem; */
+  /* font-weight: 500; */
+}
+.btn-primary:hover {
+  color: #141d2b;
+}
+/* btn ends */

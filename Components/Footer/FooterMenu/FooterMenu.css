@@ -1,0 +1,15 @@
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  font-size: 1.7rem;
+}
+.footer-menu__header {
+}
+.footer-menu__link {
+  color: var(--text-color);
+  transition: color var(--transition);
+}
+.footer-menu__link:hover {
+  color: #fff;
+}
