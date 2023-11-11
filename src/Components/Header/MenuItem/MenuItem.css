@@ -13,6 +13,7 @@
   display: flex;
   align-items: center;
   transition: color var(--transition);
+  
 }
 
 .nav-menu__link:hover {
@@ -57,7 +58,7 @@
 }
 
 .sub-menu__item:not(:last-child) {
-  margin-bottom: 2.5rem;
+  margin-bottom: 3rem;
 }
 
 .sub-menu__link {
@@ -68,9 +69,10 @@
 .sub-menu__link h2 {
   position: relative;
   display: inline-block;
-  font-size: 1.5rem;
+  /* font-size: 1.5rem; */
   color: #000;
   line-height: 2.4rem;
+  margin-bottom: 0.7rem;
 }
 
 .sub-menu__link h2 .arrow-right {
