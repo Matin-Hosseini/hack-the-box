@@ -2,6 +2,7 @@ import "./App.css";
 import About from "./Components/About/About";
 import Blogs from "./Components/Blogs/Blogs";
 import Companies from "./Components/Companies/Companies";
+import Footer from "./Components/Footer/Footer";
 import FunFacts from "./Components/FunFacts/FunFacts";
 import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
@@ -17,6 +18,7 @@ function App() {
       <Testimonial/>
       <Blogs/>
       <FunFacts/>
+      <Footer/>
     </>
   );
 }

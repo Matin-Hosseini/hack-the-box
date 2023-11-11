@@ -49,6 +49,12 @@ a:hover {
   /* color: var(--title-color); */
 }
 
+img{
+  width: 100%;
+  height: 100%;
+  
+}
+
 .d-none {
   display: none !important;
 }
