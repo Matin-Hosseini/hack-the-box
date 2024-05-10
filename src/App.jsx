@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./App.css";
 import About from "./Components/About/About";
 import Blogs from "./Components/Blogs/Blogs";
@@ -10,6 +11,11 @@ import Hero from "./Components/Hero/Hero";
 import Testimonial from "./Components/Testimonial/Testimonials";
 
 function App() {
+
+  useEffect(() => {
+    document.title = "Hack the box"
+  }, [])
+
   return (
     <>
       <FeedBack />
