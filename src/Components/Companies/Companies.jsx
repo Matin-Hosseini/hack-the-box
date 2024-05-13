@@ -16,10 +16,7 @@ export default function Companies() {
 function Company({ name, img }) {
   return (
     <div className="company">
-      <img
-        src={`./../../../src/assets/images/home-page/companies/${img}`}
-        alt={name}
-      />
+      <img src={img} alt={name} />
     </div>
   );
 }

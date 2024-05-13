@@ -7,10 +7,7 @@ export default function TestimonialBox({ comment, img, name, job }) {
 
       <div className="testimonial-box__footer">
         <div className="testimonial-box__writer-img">
-          <img
-            src={`./../../../../src/assets/images/home-page/testimonial/${img}`}
-            alt={name}
-          />
+          <img src={img} alt={name} />
         </div>
 
         <div className="testimonial-box__writer-info">

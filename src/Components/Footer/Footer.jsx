@@ -24,7 +24,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="container">
         <div className="row">
-          <div className="col-12 col-sm-6 col-md-3">
+          <div className="col-12 col-md-6 col-lg-3 mb-5">
             <div className="footer__primary">
               <LogoWhite />
               <div className="footer__primary-menu">
@@ -60,13 +60,13 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="col-12 col-sm-6 col-md-3">
+          <div className="col-12 col-md-6 col-lg-3 mb-5">
             <FooterMenu {...footerMenu.products} />
           </div>
-          <div className="col-12 col-sm-6 col-md-3">
+          <div className="col-12 col-md-6 col-lg-3 mb-5">
             <FooterMenu {...footerMenu.company} />
           </div>
-          <div className="col-12 col-sm-6 col-md-3">
+          <div className="col-12 col-md-6 col-lg-3 mb-5">
             <FooterMenu {...footerMenu.resources} />
           </div>
           <div className="footer-bottom">

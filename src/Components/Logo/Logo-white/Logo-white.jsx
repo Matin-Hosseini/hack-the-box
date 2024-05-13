@@ -1,9 +1,10 @@
-import "./LogoWhtie.css"
+import "./LogoWhtie.css";
+import logoWhiteImg from "./../../../assets/images/logo/logo-white.svg";
 
-export default function LogoWhite(){
-    return(
-        <div className="logo-white">
-            <img src="src/assets/images/logo/logo-white.svg" alt="" />
-        </div>
-    )
+export default function LogoWhite() {
+  return (
+    <div className="logo-white">
+      <img src={logoWhiteImg} alt="logo" />
+    </div>
+  );
 }
